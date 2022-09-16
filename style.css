@@ -1,0 +1,244 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+ /**Movil**/
+ /**@media (min-width:120px) and (max-width:774.9px)**/
+
+@media (max-width: 767px) and (max-width:774.9px) {
+       .desktop{display: none;
+    }
+    .tablet{display: none;
+    }
+   
+}
+ /**Tablet**/
+@media (max-width: 768px) and (max-width:774.9px) 
+{
+    .desktop{display: none;
+    }
+   
+    .movil{display: none;
+    }
+}
+  /**Escriptorio**/
+@media (max-width: 990px) and (max-width:774.9px) {
+    
+    .tablet{display: none;
+    }
+    .movil{display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(60deg, #ffffff, #11d4ba, #d42aff, #ffffff);
+    background-size: 500%;
+    animation: gradientAnimationb 5s ease infinite;
+}
+
+@keyframes gradientAnimationb{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+ .container{
+  margin: auto;
+  width: 1040px;
+  height: 630px;
+  padding: 5px;
+  
+ }
+.logo{
+   width: 100%;
+   float: left;
+   
+   
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    
+   
+}
+.right{
+    float: right;
+    width: 30%;
+    border-radius: 24px;
+    height: auto;
+    border-radius: 24px;
+    background: #FFF;
+    
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    
+   
+}
+.aluraImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 70%;
+    color: #206ee4;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #FFF;
+}
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    font-size: 15px;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 0.1px rgb(63, 60, 60);
+    background: #FFF;
+}
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    transition: 200ms;
+}
+#btn-encriptar:hover{
+    transform: scale(1.2);
+    background: transparent;
+}
+
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    transition: 200ms;
+}
+
+#btn-desencriptar:hover{
+    transform: scale(1.2);
+    background: transparent;
+}
+
+#copiar{
+margin-left: 33%;
+margin-top: 90%;
+padding: 24px;
+width: 40%;
+height: 10%;
+background: #D8DFE8;
+border-radius: 24px;
+display: none;
+}
+
+#copiar:hover{
+    transform: scale(1.2);
+    background: transparent; 
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width: auto;
+
+    }
+    .logo{
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .left{
+        width: auto;
+        height: auto;
+    }
+    .text-input{
+        width: auto;
+        height: auto;
+        position: relative;
+        bottom: 20px;
+    }
+    #imgDer{
+        width: auto;
+        height: auto;
+    }
+    .left-button{
+        width: auto;
+        height: auto;
+        display: flex;
+        padding-top:10px ;
+    }
+    #btn-encriptar{
+        width: auto;
+        height: auto;
+        height: 80px;
+    }
+    #btn-desencriptar{
+        width: auto;
+        height: auto;
+        height: 80px;
+    }
+    .right{
+        width: auto;
+    }
+    p{
+        width: 50px;
+        padding: 10px;
+    }
+}
